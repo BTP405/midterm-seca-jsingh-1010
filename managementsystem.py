@@ -22,7 +22,7 @@ class ManagementSystem:
 
     def __init__(self):
         self.employees=[]
-        self.projects[]
+        self.projects=[]
         self.tasks=[]
         """
         Initialize a ManagementSystem object.
@@ -41,7 +41,7 @@ class ManagementSystem:
 
     def remove_employee(self, emp_id):
         for employee in self.employees:
-            if employee.emp.id-emp_id;
+            if employee.emp.id=emp_id;
             self.employees.remove(employee)
             return
             raise ValueError("employee not found.")
