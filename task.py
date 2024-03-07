@@ -17,11 +17,11 @@ class Task:
     """
 
     def __init__(self, task_id, description, deadline, status, project):
-        self.task_id=task_id
-        self.description=description
-        self.deadline=deadline
-        self.status=status
-        self.project=project
+        self.task_id = task_id
+        self.description = description
+        self.deadline = deadline
+        self.status = status
+        self.project = project
         """
         Initialize a Task object.
 
